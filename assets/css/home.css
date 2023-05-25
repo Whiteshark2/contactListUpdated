@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    color:black;
+    font-weight:900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:3rem;
+    padding: 0;
+}
+.list_card{
+    list-style: none;
+    height: 120px;
+    width: 400px;
+    border: 1px red groove;
+    margin:10px;
+    color:black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color: rgb(247, 247, 233);
+}
+.list_card p{
+    font-size: 1.4rem;
+    padding:0;
+    margin:0;
+    font-family:cursive;
+    color:black;
+}
+.phone_container{
+    display:flex;
+    flex-direction: column;
+}
+.div-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    height: 40%; 
+    width:40%;
+    border:2px red ;
+    padding: 10px;
+}
+form input{
+    margin:10px 0px 10px 0px;
+    padding:10px; 
+     max-width: 60%;
+    border:0;
+    color:#0d6efd;
+}
+form button{
+    max-width: 15%;
+}
+.heading:hover{
+    color:#0d6efd;
+}
+
+.list_card:hover{
+    border-radius: 0;
+    border-style: unset;
+}
+.delete-detail{
+    display: flex;
+    align-items: center;
+}
