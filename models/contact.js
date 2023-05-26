@@ -5,6 +5,10 @@ const contactSchema=mongoose.Schema({
         type:String,
         required:true
     },
+    user:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"user"
+    },
     email:{
         type:String,
         required:true
@@ -12,7 +16,7 @@ const contactSchema=mongoose.Schema({
     phone:{
         type:String,
         required:true
-    }
+    },
 })
 
 const Contact=mongoose.model('Contact',contactSchema)

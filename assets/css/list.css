@@ -1,0 +1,42 @@
+.form-container{
+    display: inline-block;
+    width: 40%;
+    vertical-align:top;
+}
+form{
+    margin:20px;
+    background-color:black;
+    color:white;
+    padding: 20px;
+}
+form input{
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+
+.contactList{
+    display: inline-block;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.contactList li {
+    list-style: none;
+    height: 170px;
+    width: 400px;
+    background-color: rgb(15, 246, 103);
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.detail{
+    margin:20px;
+}
+.detail p{
+    font-size: 20px;
+    font-weight: 900;
+}
