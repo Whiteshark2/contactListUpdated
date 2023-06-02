@@ -12,7 +12,6 @@ passport.use(new LocalStrategy({
             return done(err)
           }
           if(!user || user.password!=password){
-            console.log("Error in passport")
             return done(null,false)
           }
           return done(null,user)

@@ -32,6 +32,8 @@ form input{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    border: 2px red solid;
+    border-radius: 4px;
 }
 .detail{
     margin:20px;
