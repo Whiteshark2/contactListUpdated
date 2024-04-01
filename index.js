@@ -2,7 +2,7 @@ const express =require('express')
 const dotenv=require('dotenv')
 dotenv.config()
 const path=require('path')
-const port=8000
+const port=Process.env.PORT
 const app=express()
 const db=require('./config/mongoose')
 const session=require('express-session')
