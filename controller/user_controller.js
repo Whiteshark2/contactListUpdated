@@ -28,9 +28,9 @@ module.exports.createSession=function(req,res){
 }
 
 module.exports.list= async function(req,res){
-    const phone=await Contact.find({user:req.user.id})
+    const list=await Contact.find()
     return res.render('list',{
-        phone:phone
+        phone:list
     })
 }
 
@@ -57,5 +57,9 @@ module.exports.deleteContact= async function(req,res){
     const del=await Contact.findByIdAndDelete(id)
     return res.redirect('back')
 }
+
+// module.exports.Search=async function(req,res){
+//     let user
+// }
     
 

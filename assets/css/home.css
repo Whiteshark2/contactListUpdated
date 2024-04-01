@@ -1,4 +1,4 @@
-*{
+/* *{
     padding:0;
     margin:0;
 }
@@ -68,4 +68,39 @@ form button{
 .delete-detail{
     display: flex;
     align-items: center;
+} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 10vh;
+    background-color: #333; /* Adjust as needed */
+    color: #fff; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 10vh;
+    background-color: #333; /* Adjust as needed */
+    color: #fff; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

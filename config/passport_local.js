@@ -31,7 +31,7 @@ passport.use(new LocalStrategy({
     if(req.isAuthenticated()){
       return next();
     }
-    return res.redirect('/users/sign-in')
+    return res.redirect('/sign-in')
   }
   
   passport.setAuthenticatedUser=function(req,res,next){

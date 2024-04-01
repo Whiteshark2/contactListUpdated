@@ -42,3 +42,6 @@ form input{
     font-size: 20px;
     font-weight: 900;
 }
+.search-bar{
+    display: inline-block;
+}
