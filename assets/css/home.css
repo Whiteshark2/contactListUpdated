@@ -74,7 +74,8 @@ form button{
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 80vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }

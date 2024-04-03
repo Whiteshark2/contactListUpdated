@@ -1,10 +1,10 @@
 {
   "name": "contact",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -22,5 +22,14 @@
     "nodemon": "^2.0.22",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Whiteshark2/contactListUpdated.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Whiteshark2/contactListUpdated/issues"
+  },
+  "homepage": "https://github.com/Whiteshark2/contactListUpdated#readme",
+  "description": ""
 }
